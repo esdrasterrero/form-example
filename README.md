@@ -24,7 +24,7 @@ ddev update
 ```
 
 
-## Viewing the project
+## Viewing the module output
 
 The project consists of two paths:
 
