@@ -1,6 +1,6 @@
 # Starting  the Project[¶](https://ddev.readthedocs.io/en/stable/users/project/#starting-a-project "Permanent link")
 
-# Installing DDEV
+## Installing DDEV
 DDEV is an open source tool for launching local web development environments in minutes.
 
 Once you’ve [installed a Docker provider](https://ddev.readthedocs.io/en/stable/users/install/docker-installation/), you’re ready to install DDEV!
@@ -24,7 +24,7 @@ ddev update
 ```
 
 
-# Viewing the project
+## Viewing the project
 
 The project consists of two paths:
 
