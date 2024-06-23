@@ -1,0 +1,3 @@
+services:
+  form_example.date:
+    class: 'Drupal\form_example\DateService'

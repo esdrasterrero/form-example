@@ -1,0 +1,14 @@
+form_example.form:
+  path: '/date-form'
+  defaults:
+    _form: '\Drupal\form_example\Form\DateForm'
+    _title: 'Date Form'
+  requirements:
+    _permission: 'access content'
+form_example.form_from_controller:
+  path: '/date-form-from-controller'
+  defaults:
+    _controller: '\Drupal\form_example\Controller\FormExampleController::renderForm'
+    _title: 'Date Form Using a Controller'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,18 @@
+#!/bin/bash
+## Description: Run update sequences in the web container
+## Usage: update
+## Example: "ddev update"
+source "$(dirname "$0")/common.sh"
+
+log "\e[36m--------- Updating packages & site ---------\e[39m"
+
+log "Go to the project root."
+cd "${PWD}" || exit 1;
+
+# This piece will always run.
+log "Installing composer dependencies (with development dependencies)."
+composer install --no-interaction --no-progress --apcu-autoloader || exit 1;
+log "Composer packages are installed"
+
+log "\e[36m--------- Use this URL to log in ---------\e[39m"
+drush uli /date-form-from-controller
