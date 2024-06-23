@@ -2,7 +2,8 @@
 
 ## Installing the module
 
-1. **Open Terminal**: Open your terminal or command prompt.
+1. Place the module folder **inside the custom module directory** of your Drupal project: `web/modules/custom`
+2. **Open Terminal**: Open your terminal or command prompt.
 2. **Navigate to Your Drupal Root Directory**: Change to the directory where your Drupal installation is located.
 3. **Enable the Module**: Use the `drush en` command followed by the module's machine name.
    ```sh
