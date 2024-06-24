@@ -10,7 +10,7 @@ class DateService implements DateServiceInterface {
    * Gets the day of the week for a given date string.
    *
    * @param string $date
-   *   The date string in 'Y-m-d' format.
+   *   The date string.
    *
    * @return string
    *   The day of the week.
